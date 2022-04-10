@@ -10,7 +10,7 @@ Starting the Cap Service:
 1) npm i --save
 2) cds watch
 
-Add the credentials in the default-env.json for the destination instance, xsuaa instance and connection instance. 
+The credentials for the destination instance, xsuaa instance and connection instance need to be added in the default-env.json file. 
 ## Learn More
 
 Learn more at https://cap.cloud.sap/docs/get-started/.
