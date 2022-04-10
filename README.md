@@ -1,25 +1,16 @@
 # Getting Started
 
-Welcome to your new project.
+Starting the application router
+1) cd ./app-router
+2) npm i --save
+3) npm i @sap/approuter 
+4) npm start
 
-It contains these folders and files, following our recommended project layout:
+Starting the Cap Service:
+1) npm i --save
+2) cds watch
 
-File or Folder | Purpose
----------|----------
-`app/` | content for UI frontends goes here
-`db/` | your domain models and data go here
-`srv/` | your service models and code go here
-`package.json` | project metadata and configuration
-`readme.md` | this getting started guide
-
-
-## Next Steps
-
-- Open a new terminal and run `cds watch` 
-- (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
-- Start adding content, for example, a [db/schema.cds](db/schema.cds).
-
-
+Add the credentials in the default-env.json for the destination instance, xsuaa instance and connection instance. 
 ## Learn More
 
 Learn more at https://cap.cloud.sap/docs/get-started/.
