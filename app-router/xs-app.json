@@ -1,0 +1,12 @@
+{
+  "authenticationMethod": "none",
+  "routes": [
+    {
+        "source": "/prem-service(.*)",
+        "target": "/sap/opu/odata/iwfnd/catalogservice;v=2/ServiceCollection",
+        "destination": "ODataDest",
+        "authenticationType": "xsuaa"
+    }
+  ],
+  "welcomeFile": "/servicesui"
+}

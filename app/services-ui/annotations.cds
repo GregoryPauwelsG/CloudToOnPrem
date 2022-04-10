@@ -1,0 +1,1 @@
+//using CatalogService as service from 'browser-app/CapServiceProject/srv/cat-service';

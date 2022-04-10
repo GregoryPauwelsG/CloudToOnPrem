@@ -1,0 +1,66 @@
+{
+	"VCAP_SERVICES": {
+		"destination": [
+			{
+				"label": "destination",
+				"provider": null,
+				"plan": "lite",
+				"name": "abap-cloud-destination-instance",
+				"tags": [
+					"destination",
+					"conn",
+					"connsvc"
+				],
+				"instance_guid": "eae2dd9d-cdc6-43a1-ba89-51fa4428a06c",
+				"instance_name": "abap-cloud-destination-instance",
+				"binding_guid": "fabc0eac-3488-4df1-a9b2-c223b98f6a41",
+				"binding_name": null,
+				"credentials": {
+				
+				},
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			}
+		],
+        "connectivity": [
+			{
+				"label": "connectivity",
+				"provider": null,
+				"plan": "lite",
+				"name": "ConnectivitySer",
+				"tags": [
+					"connectivity",
+					"conn",
+					"connsvc"
+				],
+				"instance_guid": "118e31a8-2ffd-48fc-be29-a523b37215c4",
+				"instance_name": "ConnectivitySer",
+				"binding_guid": "fad64966-8553-4ada-a977-c2d83c8d18f2",
+				"binding_name": null,
+				"credentials": {
+				},
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			}
+		],
+        "xsuaa": [
+			{
+				"label": "xsuaa",
+				"provider": null,
+				"plan": "application",
+				"name": "xsuaaService",
+				"tags": [
+					"xsuaa"
+				],
+				"instance_guid": "0065dd11-774d-444f-a75d-18225c33f60b",
+				"instance_name": "xsuaaService",
+				"binding_guid": "dfc45a3d-0fe5-4245-86dc-e8498f13237a",
+				"binding_name": null,
+				"credentials": {
+				},
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			}
+		]
+	}
+}
